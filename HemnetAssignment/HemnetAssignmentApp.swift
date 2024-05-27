@@ -11,7 +11,7 @@ import SwiftUI
 struct HemnetAssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeScreen()
         }
     }
 }
