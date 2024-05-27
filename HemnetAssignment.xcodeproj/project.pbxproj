@@ -15,6 +15,9 @@
 		C5F13D762C028D8B002AD500 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */; };
 		C5F13D782C03C84C002AD500 /* AreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D772C03C84C002AD500 /* AreaView.swift */; };
 		C5F13D802C04703D002AD500 /* HemnetAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D7F2C04703D002AD500 /* HemnetAssignmentTests.swift */; };
+		C5F13D882C053007002AD500 /* APIPropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D872C053007002AD500 /* APIPropertyModel.swift */; };
+		C5F13D8B2C053046002AD500 /* PropertyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D8A2C053046002AD500 /* PropertyViewModel.swift */; };
+		C5F13D8D2C053079002AD500 /* PropertyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		C5F13D772C03C84C002AD500 /* AreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaView.swift; sourceTree = "<group>"; };
 		C5F13D7D2C04703D002AD500 /* HemnetAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HemnetAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F13D7F2C04703D002AD500 /* HemnetAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemnetAssignmentTests.swift; sourceTree = "<group>"; };
+		C5F13D872C053007002AD500 /* APIPropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPropertyModel.swift; sourceTree = "<group>"; };
+		C5F13D8A2C053046002AD500 /* PropertyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewModel.swift; sourceTree = "<group>"; };
+		C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,8 @@
 		C5880CF02BFB581500A1767D /* HemnetAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				C5F13D892C053027002AD500 /* ViewModels */,
+				C5F13D862C052FD4002AD500 /* Models */,
 				C5F13D742C028D7D002AD500 /* Views */,
 				C5F13D6E2C01365D002AD500 /* Managers */,
 				C5880CF12BFB581500A1767D /* HemnetAssignmentApp.swift */,
@@ -118,6 +126,7 @@
 				C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */,
 				C5F13D712C013CC3002AD500 /* Home.swift */,
 				C5F13D772C03C84C002AD500 /* AreaView.swift */,
+				C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -128,6 +137,22 @@
 				C5F13D7F2C04703D002AD500 /* HemnetAssignmentTests.swift */,
 			);
 			path = HemnetAssignmentTests;
+			sourceTree = "<group>";
+		};
+		C5F13D862C052FD4002AD500 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5F13D872C053007002AD500 /* APIPropertyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5F13D892C053027002AD500 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C5F13D8A2C053046002AD500 /* PropertyViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F13D702C01365D002AD500 /* NetworkManager.swift in Sources */,
+				C5F13D8B2C053046002AD500 /* PropertyViewModel.swift in Sources */,
+				C5F13D882C053007002AD500 /* APIPropertyModel.swift in Sources */,
 				C5F13D762C028D8B002AD500 /* WelcomeScreen.swift in Sources */,
 				C5F13D782C03C84C002AD500 /* AreaView.swift in Sources */,
 				C5F13D722C013CC3002AD500 /* Home.swift in Sources */,
+				C5F13D8D2C053079002AD500 /* PropertyDetailView.swift in Sources */,
 				C5880CF22BFB581600A1767D /* HemnetAssignmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
