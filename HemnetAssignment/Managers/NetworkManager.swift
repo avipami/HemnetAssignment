@@ -20,7 +20,7 @@ enum API {
 
 enum APILoadingState {
     case loading
-    case success(UIImage)
+    case success(UIImage? = nil)
     case failure(Error)
 }
 
@@ -32,7 +32,11 @@ enum NetworkError: Error {
     case decodeError
 }
 
-class NetworkManager {
+protocol NetworkManaging {
+    func fetchProperties(completion: @escaping (Result<[Item], NetworkError>) -> Void)
+}
+
+class NetworkManager: NetworkManaging {
     static let shared = NetworkManager()
     
     private init() {}

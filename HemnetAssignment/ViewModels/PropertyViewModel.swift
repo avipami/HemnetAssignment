@@ -12,15 +12,18 @@ class PropertyViewModel: ObservableObject {
     @Published var properties: [Item] = []
     @Published var highlightedProperties: [Item] = []
     @Published var areas: [Item] = []
+    var networkManager: NetworkManaging
     
-    init() {
+    init(_ networkManager : NetworkManager = NetworkManager.shared) {
+        self.networkManager = networkManager
         fetchNewProperties()
     }
     
     func fetchNewProperties() {
-        NetworkManager.shared.fetchProperties() { [weak self] result in
-            guard let self = self else { return } // Ensure self is still available
-            DispatchQueue.main.async {
+        print("Fetching Properties")
+        networkManager.fetchProperties() { [weak self] result in
+            guard let self = self else { return }
+            DispatchQueue.main.async { [self] in
                 switch result {
                 case .success(let properties):
                     properties.forEach { property in
@@ -33,6 +36,7 @@ class PropertyViewModel: ObservableObject {
                         case .property:
                             self.properties.append(property)
                         }
+                        self.state = .success()
                     }
                 case .failure(let error):
                     print(error)
