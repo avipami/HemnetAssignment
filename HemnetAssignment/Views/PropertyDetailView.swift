@@ -15,12 +15,14 @@ struct PropertyDetailView: View {
         ZStack(alignment: .top) {
             RoundedRectangle(cornerRadius: 25.0)
                 .frame(height: 550)
+                .foregroundStyle(.white)
                 .overlay {
                     
                     AsyncImage(url: URL(string: item.image)) { phase in
                         switch phase {
                         case .empty:
                             ProgressView()
+                            
                         case .success(let image):
                             image
                                 .resizable()
@@ -31,7 +33,9 @@ struct PropertyDetailView: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                         @unknown default:
-                            EmptyView()
+                            Image(systemName: "photo")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
                         }
                     }
                     .ignoresSafeArea()

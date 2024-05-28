@@ -15,37 +15,37 @@ import Quick
 class PropertyDetailViewSnapshotSpec: QuickSpec {
     override class func spec() {
         describe("PropertyDetailView") {
-            var view: UIView!
+            var sut: UIView!
             
             beforeEach {
-                let item = Item(
-                    type: .highlightedProperty,
-                    id: "1234567890",
-                    askingPrice: 2650000,
-                    monthlyFee: nil,
-                    municipality: "Gällivare kommun",
-                    area: "Heden",
-                    daysSincePublish: 1,
-                    livingArea: 120,
-                    numberOfRooms: 5,
-                    streetAddress: "Mockvägen 1",
-                    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Hus_i_svarttorp.jpg/800px-Hus_i_svarttorp.jpg",
-                    ratingFormatted: nil,
-                    averagePrice: nil
-                )
                 
-                let swiftuiView = PropertyDetailView(item: Item.mockData[0])
+                sut = PropertyDetailView(item: Item.mockData[0]).testView()
                 
-                let hostingController = UIHostingController(rootView: swiftuiView).view
-                
-                view = hostingController
             }
             
             it("should have a valid snapshot for highlighted property") {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                    expect(view).to(recordSnapshot(named: "DetailViewSnap"))
-                }
+                expect(sut).toEventually(haveValidSnapshot(named: "DetailViewSnap"), timeout: .seconds(1))
+                
             }
         }
     }
 }
+
+extension View {
+    func testView(width: CGFloat? = nil, height: CGFloat? = nil, colorScheme: ColorScheme? = nil) -> UIView {
+        let viewController = UIHostingController(rootView: self.environment(\.colorScheme, colorScheme ?? .light))
+        viewController._disableSafeArea = true
+        
+        let calculatedSize = width.map {
+            viewController.view.sizeThatFits(
+                CGSize(width: $0, height: height ?? CGFloat.greatestFiniteMagnitude))
+        } ?? UIScreen.main.bounds.size
+        
+        let window = UIWindow(frame: CGRect(origin: .zero, size: calculatedSize))
+        window.rootViewController = viewController
+        window.makeKeyAndVisible()
+        window.backgroundColor = colorScheme == .light ? .white : .black
+        return viewController.view
+    }
+}
+
