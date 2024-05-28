@@ -14,9 +14,135 @@
             filePath = "HemnetAssignmentTests/PropertyDetailViewSnapshotTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "spec()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F522EDC-3A4A-4236-805D-6FD6EA7324F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HemnetAssignmentTests/HomeViewTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "333FE0E2-92F7-44F7-AD9D-1F1FB9284B2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HemnetAssignment/Views/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "333FE0E2-92F7-44F7-AD9D-1F1FB9284B2C - 1e44f4e5894d73f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.multilineTextAlignment(SwiftUI.TextAlignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, HemnetAssignment.PropertyDetailView&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.multilineTextAlignment(SwiftUI.TextAlignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, HemnetAssignment.PropertyDetailView&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollIndicators(_: SwiftUI.ScrollIndicatorVisibility, axes: SwiftUI.Axis.Set) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollIndicators(_: SwiftUI.ScrollIndicatorVisibility, axes: SwiftUI.Axis.Set) -&gt; some&gt;&gt;.0)&gt;&gt; in HemnetAssignment.Home.body.getter : some"
+                  moduleName = "HemnetAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neopixel/Documents/GitHub/HemnetAssignment/HemnetAssignment/Views/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1632">
+               </Location>
+               <Location
+                  uuid = "333FE0E2-92F7-44F7-AD9D-1F1FB9284B2C - f3aeb92368461896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (HemnetAssignment.Item) -&gt; &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.multilineTextAlignment(SwiftUI.TextAlignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, HemnetAssignment.PropertyDetailView&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.multilineTextAlignment(SwiftUI.TextAlignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, HemnetAssignment.PropertyDetailView&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollIndicators(_: SwiftUI.ScrollIndicatorVisibility, axes: SwiftUI.Axis.Set) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollIndicators(_: SwiftUI.ScrollIndicatorVisibility, axes: SwiftUI.Axis.Set) -&gt; some&gt;&gt;.0)&gt;&gt; in HemnetAssignment.Home.body.getter : some"
+                  moduleName = "HemnetAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neopixel/Documents/GitHub/HemnetAssignment/HemnetAssignment/Views/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "333FE0E2-92F7-44F7-AD9D-1F1FB9284B2C - 1e44f4e5894d73f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.multilineTextAlignment(SwiftUI.TextAlignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, HemnetAssignment.PropertyDetailView&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.multilineTextAlignment(SwiftUI.TextAlignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, HemnetAssignment.PropertyDetailView&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollIndicators(_: SwiftUI.ScrollIndicatorVisibility, axes: SwiftUI.Axis.Set) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollIndicators(_: SwiftUI.ScrollIndicatorVisibility, axes: SwiftUI.Axis.Set) -&gt; some&gt;&gt;.0)&gt;&gt; in HemnetAssignment.Home.body.getter : some"
+                  moduleName = "HemnetAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neopixel/Documents/GitHub/HemnetAssignment/HemnetAssignment/Views/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1280">
+               </Location>
+               <Location
+                  uuid = "333FE0E2-92F7-44F7-AD9D-1F1FB9284B2C - 3456490e4eba66d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (HemnetAssignment.Item) -&gt; SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, HemnetAssignment.PropertyDetailView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.multilineTextAlignment(SwiftUI.TextAlignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, HemnetAssignment.PropertyDetailView&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.multilineTextAlignment(SwiftUI.TextAlignment) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, HemnetAssignment.PropertyDetailView&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;HemnetAssignment.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollIndicators(_: SwiftUI.ScrollIndicatorVisibility, axes: SwiftUI.Axis.Set) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollIndicators(_: SwiftUI.ScrollIndicatorVisibility, axes: SwiftUI.Axis.Set) -&gt; some&gt;&gt;.0)&gt;&gt; in HemnetAssignment.Home.body.getter : some"
+                  moduleName = "HemnetAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neopixel/Documents/GitHub/HemnetAssignment/HemnetAssignment/Views/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1976A24-17EE-474D-A6F6-F57CA8B329FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HemnetAssignmentTests/PropertyViewModelTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "fetchProperties(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7ECA835-19F2-4BB8-B031-657A7D799080"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HemnetAssignment/ViewModels/PropertyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchNewProperties()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -12,9 +12,12 @@ class PropertyViewModel: ObservableObject {
     @Published var properties: [Item] = []
     @Published var highlightedProperties: [Item] = []
     @Published var areas: [Item] = []
+    
     var networkManager: NetworkManaging
     
+    
     init(_ networkManager : NetworkManager = NetworkManager.shared) {
+        
         self.networkManager = networkManager
         fetchNewProperties()
     }

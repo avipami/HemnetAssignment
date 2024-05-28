@@ -12,6 +12,11 @@
 		C5880CF22BFB581600A1767D /* HemnetAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5880CF12BFB581500A1767D /* HemnetAssignmentApp.swift */; };
 		C5880CF62BFB581700A1767D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5880CF52BFB581700A1767D /* Assets.xcassets */; };
 		C5880CF92BFB581700A1767D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5880CF82BFB581700A1767D /* Preview Assets.xcassets */; };
+		C5F0C1AE2C066B0700D83177 /* HomeViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0C1AD2C066B0700D83177 /* HomeViewTest.swift */; };
+		C5F0C1B12C0679A100D83177 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0C1B02C0679A100D83177 /* Extensions.swift */; };
+		C5F0C1B32C06802700D83177 /* HighlightedPropertyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0C1B22C06802700D83177 /* HighlightedPropertyRowView.swift */; };
+		C5F0C1B52C06806D00D83177 /* PropertyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0C1B42C06806D00D83177 /* PropertyRowView.swift */; };
+		C5F0C1B72C06809000D83177 /* AreaRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0C1B62C06809000D83177 /* AreaRowView.swift */; };
 		C5F13D702C01365D002AD500 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D6F2C01365D002AD500 /* NetworkManager.swift */; };
 		C5F13D722C013CC3002AD500 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D712C013CC3002AD500 /* Home.swift */; };
 		C5F13D762C028D8B002AD500 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */; };
@@ -20,9 +25,11 @@
 		C5F13D8B2C053046002AD500 /* PropertyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D8A2C053046002AD500 /* PropertyViewModel.swift */; };
 		C5F13D8D2C053079002AD500 /* PropertyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */; };
 		C5F13D902C05BE96002AD500 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C5F13D8F2C05BE96002AD500 /* Podfile */; };
-		C5F13D922C05C349002AD500 /* HomeViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D912C05C349002AD500 /* HomeViewTest.swift */; };
 		C5F13D942C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D932C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift */; };
 		C5F13DA12C05E0BE002AD500 /* PropertyViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13DA02C05E0BE002AD500 /* PropertyViewModelTest.swift */; };
+		C5F13DA62C06326D002AD500 /* Epilogue-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5F13DA32C06326D002AD500 /* Epilogue-ExtraLight.ttf */; };
+		C5F13DA72C06326D002AD500 /* Epilogue-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5F13DA42C06326D002AD500 /* Epilogue-Medium.ttf */; };
+		C5F13DA82C06326D002AD500 /* Epilogue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5F13DA52C06326D002AD500 /* Epilogue-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,11 @@
 		C5880CF12BFB581500A1767D /* HemnetAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemnetAssignmentApp.swift; sourceTree = "<group>"; };
 		C5880CF52BFB581700A1767D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5880CF82BFB581700A1767D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5F0C1AD2C066B0700D83177 /* HomeViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTest.swift; sourceTree = "<group>"; };
+		C5F0C1B02C0679A100D83177 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C5F0C1B22C06802700D83177 /* HighlightedPropertyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightedPropertyRowView.swift; sourceTree = "<group>"; };
+		C5F0C1B42C06806D00D83177 /* PropertyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyRowView.swift; sourceTree = "<group>"; };
+		C5F0C1B62C06809000D83177 /* AreaRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaRowView.swift; sourceTree = "<group>"; };
 		C5F13D6F2C01365D002AD500 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C5F13D712C013CC3002AD500 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
@@ -55,13 +67,16 @@
 		C5F13D8A2C053046002AD500 /* PropertyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewModel.swift; sourceTree = "<group>"; };
 		C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailView.swift; sourceTree = "<group>"; };
 		C5F13D8F2C05BE96002AD500 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C5F13D912C05C349002AD500 /* HomeViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTest.swift; sourceTree = "<group>"; };
 		C5F13D932C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailViewSnapshotTests.swift; sourceTree = "<group>"; };
 		C5F13D952C05C81F002AD500 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F13D962C05C81F002AD500 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F13D9C2C05C827002AD500 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F13D9F2C05DB04002AD500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C5F13DA02C05E0BE002AD500 /* PropertyViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewModelTest.swift; sourceTree = "<group>"; };
+		C5F13DA32C06326D002AD500 /* Epilogue-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C5F13DA42C06326D002AD500 /* Epilogue-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Medium.ttf"; sourceTree = "<group>"; };
+		C5F13DA52C06326D002AD500 /* Epilogue-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Bold.ttf"; sourceTree = "<group>"; };
+		C5F13DA92C06327C002AD500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +146,9 @@
 		C5880CF02BFB581500A1767D /* HemnetAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				C5F0C1AF2C06798300D83177 /* Helpers */,
+				C5F13DA22C063248002AD500 /* Fonts */,
+				C5F13DA92C06327C002AD500 /* Info.plist */,
 				C5F13D892C053027002AD500 /* ViewModels */,
 				C5F13D862C052FD4002AD500 /* Models */,
 				C5F13D742C028D7D002AD500 /* Views */,
@@ -150,6 +168,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C5F0C1AF2C06798300D83177 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0C1B02C0679A100D83177 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C5F13D6E2C01365D002AD500 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,8 +189,11 @@
 			children = (
 				C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */,
 				C5F13D712C013CC3002AD500 /* Home.swift */,
+				C5F0C1B62C06809000D83177 /* AreaRowView.swift */,
 				C5F13D772C03C84C002AD500 /* AreaView.swift */,
 				C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */,
+				C5F0C1B22C06802700D83177 /* HighlightedPropertyRowView.swift */,
+				C5F0C1B42C06806D00D83177 /* PropertyRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,11 +218,21 @@
 			isa = PBXGroup;
 			children = (
 				C5F13D9F2C05DB04002AD500 /* Info.plist */,
-				C5F13D912C05C349002AD500 /* HomeViewTest.swift */,
 				C5F13D932C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift */,
 				C5F13DA02C05E0BE002AD500 /* PropertyViewModelTest.swift */,
+				C5F0C1AD2C066B0700D83177 /* HomeViewTest.swift */,
 			);
 			path = HemnetAssignmentTests;
+			sourceTree = "<group>";
+		};
+		C5F13DA22C063248002AD500 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C5F13DA52C06326D002AD500 /* Epilogue-Bold.ttf */,
+				C5F13DA32C06326D002AD500 /* Epilogue-ExtraLight.ttf */,
+				C5F13DA42C06326D002AD500 /* Epilogue-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +322,10 @@
 			files = (
 				C5F13D902C05BE96002AD500 /* Podfile in Resources */,
 				C5880CF92BFB581700A1767D /* Preview Assets.xcassets in Resources */,
+				C5F13DA72C06326D002AD500 /* Epilogue-Medium.ttf in Resources */,
+				C5F13DA62C06326D002AD500 /* Epilogue-ExtraLight.ttf in Resources */,
 				C5880CF62BFB581700A1767D /* Assets.xcassets in Resources */,
+				C5F13DA82C06326D002AD500 /* Epilogue-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +407,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F0C1B72C06809000D83177 /* AreaRowView.swift in Sources */,
 				C5F13D702C01365D002AD500 /* NetworkManager.swift in Sources */,
+				C5F0C1B12C0679A100D83177 /* Extensions.swift in Sources */,
+				C5F0C1B32C06802700D83177 /* HighlightedPropertyRowView.swift in Sources */,
 				C5F13D8B2C053046002AD500 /* PropertyViewModel.swift in Sources */,
 				C5F13D882C053007002AD500 /* APIPropertyModel.swift in Sources */,
 				C5F13D762C028D8B002AD500 /* WelcomeScreen.swift in Sources */,
 				C5F13D782C03C84C002AD500 /* AreaView.swift in Sources */,
+				C5F0C1B52C06806D00D83177 /* PropertyRowView.swift in Sources */,
 				C5F13D722C013CC3002AD500 /* Home.swift in Sources */,
 				C5F13D8D2C053079002AD500 /* PropertyDetailView.swift in Sources */,
 				C5880CF22BFB581600A1767D /* HemnetAssignmentApp.swift in Sources */,
@@ -381,8 +427,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F13D942C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift in Sources */,
+				C5F0C1AE2C066B0700D83177 /* HomeViewTest.swift in Sources */,
 				C5F13DA12C05E0BE002AD500 /* PropertyViewModelTest.swift in Sources */,
-				C5F13D922C05C349002AD500 /* HomeViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +574,7 @@
 				DEVELOPMENT_TEAM = 94T2DPQKGW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HemnetAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -559,6 +606,7 @@
 				DEVELOPMENT_TEAM = 94T2DPQKGW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HemnetAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
