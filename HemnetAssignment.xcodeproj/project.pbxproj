@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19FA3B79FB3A4D9F48839627 /* Pods_HemnetAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF3CB15944AD934467032CB /* Pods_HemnetAssignment.framework */; };
+		8D1B8C52D739A96FFE353D10 /* Pods_HemnetAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5020B71D77459224E7E908A /* Pods_HemnetAssignmentTests.framework */; };
 		C5880CF22BFB581600A1767D /* HemnetAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5880CF12BFB581500A1767D /* HemnetAssignmentApp.swift */; };
 		C5880CF62BFB581700A1767D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5880CF52BFB581700A1767D /* Assets.xcassets */; };
 		C5880CF92BFB581700A1767D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5880CF82BFB581700A1767D /* Preview Assets.xcassets */; };
@@ -14,10 +16,12 @@
 		C5F13D722C013CC3002AD500 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D712C013CC3002AD500 /* Home.swift */; };
 		C5F13D762C028D8B002AD500 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */; };
 		C5F13D782C03C84C002AD500 /* AreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D772C03C84C002AD500 /* AreaView.swift */; };
-		C5F13D802C04703D002AD500 /* HemnetAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D7F2C04703D002AD500 /* HemnetAssignmentTests.swift */; };
 		C5F13D882C053007002AD500 /* APIPropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D872C053007002AD500 /* APIPropertyModel.swift */; };
 		C5F13D8B2C053046002AD500 /* PropertyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D8A2C053046002AD500 /* PropertyViewModel.swift */; };
 		C5F13D8D2C053079002AD500 /* PropertyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */; };
+		C5F13D902C05BE96002AD500 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C5F13D8F2C05BE96002AD500 /* Podfile */; };
+		C5F13D922C05C349002AD500 /* HomeViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D912C05C349002AD500 /* HomeViewTest.swift */; };
+		C5F13D942C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D932C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11958DFE4B12B467A24E2E6B /* Pods-HemnetAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetAssignment.release.xcconfig"; path = "Target Support Files/Pods-HemnetAssignment/Pods-HemnetAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		2CF3CB15944AD934467032CB /* Pods_HemnetAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HemnetAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		407D909E2EA4E1F7B7D42798 /* Pods-HemnetAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-HemnetAssignmentTests/Pods-HemnetAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		445EC85478EF81B596CCD350 /* Pods-HemnetAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetAssignment.debug.xcconfig"; path = "Target Support Files/Pods-HemnetAssignment/Pods-HemnetAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		A5020B71D77459224E7E908A /* Pods_HemnetAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HemnetAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFA0D1ACC4D325E2B004516 /* Pods-HemnetAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-HemnetAssignmentTests/Pods-HemnetAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		C5880CEE2BFB581500A1767D /* HemnetAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HemnetAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5880CF12BFB581500A1767D /* HemnetAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemnetAssignmentApp.swift; sourceTree = "<group>"; };
 		C5880CF52BFB581700A1767D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,10 +50,15 @@
 		C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		C5F13D772C03C84C002AD500 /* AreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaView.swift; sourceTree = "<group>"; };
 		C5F13D7D2C04703D002AD500 /* HemnetAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HemnetAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F13D7F2C04703D002AD500 /* HemnetAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemnetAssignmentTests.swift; sourceTree = "<group>"; };
 		C5F13D872C053007002AD500 /* APIPropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPropertyModel.swift; sourceTree = "<group>"; };
 		C5F13D8A2C053046002AD500 /* PropertyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewModel.swift; sourceTree = "<group>"; };
 		C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailView.swift; sourceTree = "<group>"; };
+		C5F13D8F2C05BE96002AD500 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5F13D912C05C349002AD500 /* HomeViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTest.swift; sourceTree = "<group>"; };
+		C5F13D932C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailViewSnapshotTests.swift; sourceTree = "<group>"; };
+		C5F13D952C05C81F002AD500 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F13D962C05C81F002AD500 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F13D9C2C05C827002AD500 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FA3B79FB3A4D9F48839627 /* Pods_HemnetAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,19 +74,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1B8C52D739A96FFE353D10 /* Pods_HemnetAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1788F29909063FC0AB9A962F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				445EC85478EF81B596CCD350 /* Pods-HemnetAssignment.debug.xcconfig */,
+				11958DFE4B12B467A24E2E6B /* Pods-HemnetAssignment.release.xcconfig */,
+				407D909E2EA4E1F7B7D42798 /* Pods-HemnetAssignmentTests.debug.xcconfig */,
+				BEFA0D1ACC4D325E2B004516 /* Pods-HemnetAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3B232840296BD31626E15E60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F13D9C2C05C827002AD500 /* Quick.framework */,
+				C5F13D952C05C81F002AD500 /* Nimble.framework */,
+				C5F13D962C05C81F002AD500 /* Nimble_Snapshots.framework */,
+				2CF3CB15944AD934467032CB /* Pods_HemnetAssignment.framework */,
+				A5020B71D77459224E7E908A /* Pods_HemnetAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5880CE52BFB581500A1767D = {
 			isa = PBXGroup;
 			children = (
-				C5F13D732C013D06002AD500 /* HemnetAssignmentTests */,
+				C5F13D8F2C05BE96002AD500 /* Podfile */,
+				C5F13D8E2C05BD8C002AD500 /* HemnetAssignmentTests */,
 				C5880CF02BFB581500A1767D /* HemnetAssignment */,
-				C5F13D7E2C04703D002AD500 /* HemnetAssignmentTests */,
 				C5880CEF2BFB581500A1767D /* Products */,
+				1788F29909063FC0AB9A962F /* Pods */,
+				3B232840296BD31626E15E60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,13 +155,6 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		C5F13D732C013D06002AD500 /* HemnetAssignmentTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HemnetAssignmentTests;
-			sourceTree = "<group>";
-		};
 		C5F13D742C028D7D002AD500 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,14 +164,6 @@
 				C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		C5F13D7E2C04703D002AD500 /* HemnetAssignmentTests */ = {
-			isa = PBXGroup;
-			children = (
-				C5F13D7F2C04703D002AD500 /* HemnetAssignmentTests.swift */,
-			);
-			path = HemnetAssignmentTests;
 			sourceTree = "<group>";
 		};
 		C5F13D862C052FD4002AD500 /* Models */ = {
@@ -155,6 +182,15 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		C5F13D8E2C05BD8C002AD500 /* HemnetAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F13D912C05C349002AD500 /* HomeViewTest.swift */,
+				C5F13D932C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift */,
+			);
+			path = HemnetAssignmentTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5880CFC2BFB581700A1767D /* Build configuration list for PBXNativeTarget "HemnetAssignment" */;
 			buildPhases = (
+				D5428A1AD91A97980B6645DF /* [CP] Check Pods Manifest.lock */,
 				C5880CEA2BFB581500A1767D /* Sources */,
 				C5880CEB2BFB581500A1767D /* Frameworks */,
 				C5880CEC2BFB581500A1767D /* Resources */,
@@ -179,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5F13D832C04703D002AD500 /* Build configuration list for PBXNativeTarget "HemnetAssignmentTests" */;
 			buildPhases = (
+				0F2E2C9D03C869D3A9881577 /* [CP] Check Pods Manifest.lock */,
 				C5F13D792C04703D002AD500 /* Sources */,
 				C5F13D7A2C04703D002AD500 /* Frameworks */,
 				C5F13D7B2C04703D002AD500 /* Resources */,
+				DD62FDAC333B9FEF16D81DB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,6 +247,7 @@
 					};
 					C5F13D7C2C04703D002AD500 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 						TestTargetID = C5880CED2BFB581500A1767D;
 					};
 				};
@@ -236,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F13D902C05BE96002AD500 /* Podfile in Resources */,
 				C5880CF92BFB581700A1767D /* Preview Assets.xcassets in Resources */,
 				C5880CF62BFB581700A1767D /* Assets.xcassets in Resources */,
 			);
@@ -249,6 +290,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F2E2C9D03C869D3A9881577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HemnetAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5428A1AD91A97980B6645DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HemnetAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD62FDAC333B9FEF16D81DB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HemnetAssignmentTests/Pods-HemnetAssignmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HemnetAssignmentTests/Pods-HemnetAssignmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HemnetAssignmentTests/Pods-HemnetAssignmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5880CEA2BFB581500A1767D /* Sources */ = {
@@ -270,7 +375,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F13D802C04703D002AD500 /* HemnetAssignmentTests.swift in Sources */,
+				C5F13D942C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift in Sources */,
+				C5F13D922C05C349002AD500 /* HomeViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +512,7 @@
 		};
 		C5880CFD2BFB581700A1767D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445EC85478EF81B596CCD350 /* Pods-HemnetAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +527,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,6 +543,7 @@
 		};
 		C5880CFE2BFB581700A1767D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11958DFE4B12B467A24E2E6B /* Pods-HemnetAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +558,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,16 +574,24 @@
 		};
 		C5F13D842C04703D002AD500 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407D909E2EA4E1F7B7D42798 /* Pods-HemnetAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 94T2DPQKGW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.flumstudios.HemnetAssignmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HemnetAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HemnetAssignment";
@@ -482,15 +600,22 @@
 		};
 		C5F13D852C04703D002AD500 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFA0D1ACC4D325E2B004516 /* Pods-HemnetAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 94T2DPQKGW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.flumstudios.HemnetAssignmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

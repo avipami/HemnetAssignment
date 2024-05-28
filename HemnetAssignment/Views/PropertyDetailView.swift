@@ -38,8 +38,6 @@ struct PropertyDetailView: View {
                 }
                 .clipShape(RoundedRectangle(cornerRadius: 25.0))
             
-            
-            
             VStack(spacing: 0) {
                 Spacer()
                 ZStack {
@@ -105,20 +103,16 @@ struct PropertyDetailView: View {
                             }
                                 .padding(.top, 24)
                         )
-                    
                 }
             }
-            
         }
         //        .toolbar(.hidden, for: .navigationBar)
         .ignoresSafeArea()
-        
     }
 }
 
-
 #Preview {
-    PropertyDetailView(item: NetworkManager.mockData[0])
+    PropertyDetailView(item: Item.mockData[0])
 }
 
 
