@@ -18,7 +18,7 @@ enum API {
     static let startScreenImageURL =  "https://images.unsplash.com/photo-1533417005-2839504859a1?q=80&w=2524&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 }
 
-enum APILoadingState {
+enum APIImageState {
     case idle
     case loading
     case success(UIImage? = nil)
@@ -86,7 +86,10 @@ class NetworkManager: NetworkManaging {
 class MockNetworkManager: NetworkManaging {
     var result: Result<[Item], NetworkError> = .success([])
     
+    var fetchPropertiesInvokeCount = 0
+    
     func fetchProperties(completion: @escaping (Result<[Item], NetworkError>) -> Void) {
+        fetchPropertiesInvokeCount += 1
         completion(result)
     }
 }

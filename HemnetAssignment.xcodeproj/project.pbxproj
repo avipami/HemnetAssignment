@@ -20,7 +20,6 @@
 		C5F13D702C01365D002AD500 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D6F2C01365D002AD500 /* NetworkManager.swift */; };
 		C5F13D722C013CC3002AD500 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D712C013CC3002AD500 /* Home.swift */; };
 		C5F13D762C028D8B002AD500 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */; };
-		C5F13D782C03C84C002AD500 /* AreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D772C03C84C002AD500 /* AreaView.swift */; };
 		C5F13D882C053007002AD500 /* APIPropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D872C053007002AD500 /* APIPropertyModel.swift */; };
 		C5F13D8B2C053046002AD500 /* PropertyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D8A2C053046002AD500 /* PropertyViewModel.swift */; };
 		C5F13D8D2C053079002AD500 /* PropertyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */; };
@@ -61,7 +60,6 @@
 		C5F13D6F2C01365D002AD500 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C5F13D712C013CC3002AD500 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
-		C5F13D772C03C84C002AD500 /* AreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaView.swift; sourceTree = "<group>"; };
 		C5F13D7D2C04703D002AD500 /* HemnetAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HemnetAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F13D872C053007002AD500 /* APIPropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPropertyModel.swift; sourceTree = "<group>"; };
 		C5F13D8A2C053046002AD500 /* PropertyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewModel.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		C5F13D952C05C81F002AD500 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F13D962C05C81F002AD500 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F13D9C2C05C827002AD500 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F13D9F2C05DB04002AD500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C5F13DA02C05E0BE002AD500 /* PropertyViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewModelTest.swift; sourceTree = "<group>"; };
 		C5F13DA32C06326D002AD500 /* Epilogue-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-ExtraLight.ttf"; sourceTree = "<group>"; };
 		C5F13DA42C06326D002AD500 /* Epilogue-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Medium.ttf"; sourceTree = "<group>"; };
@@ -188,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				C5F0C1B62C06809000D83177 /* AreaRowView.swift */,
-				C5F13D772C03C84C002AD500 /* AreaView.swift */,
 				C5F0C1B22C06802700D83177 /* HighlightedPropertyRowView.swift */,
 				C5F13D712C013CC3002AD500 /* Home.swift */,
 				C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */,
@@ -217,7 +213,6 @@
 		C5F13D8E2C05BD8C002AD500 /* HemnetAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				C5F13D9F2C05DB04002AD500 /* Info.plist */,
 				C5F13D932C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift */,
 				C5F13DA02C05E0BE002AD500 /* PropertyViewModelTest.swift */,
 				C5F0C1AD2C066B0700D83177 /* HomeViewTest.swift */,
@@ -414,7 +409,6 @@
 				C5F13D8B2C053046002AD500 /* PropertyViewModel.swift in Sources */,
 				C5F13D882C053007002AD500 /* APIPropertyModel.swift in Sources */,
 				C5F13D762C028D8B002AD500 /* WelcomeScreen.swift in Sources */,
-				C5F13D782C03C84C002AD500 /* AreaView.swift in Sources */,
 				C5F0C1B52C06806D00D83177 /* PropertyRowView.swift in Sources */,
 				C5F13D722C013CC3002AD500 /* Home.swift in Sources */,
 				C5F13D8D2C053079002AD500 /* PropertyDetailView.swift in Sources */,

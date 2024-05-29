@@ -8,7 +8,7 @@
 import Foundation
 
 class PropertyViewModel: ObservableObject {
-    @Published var state: APILoadingState = .idle
+    @Published var state: APIImageState = .idle
     @Published var properties: [Item] = []
     @Published var highlightedProperties: [Item] = []
     @Published var areas: [Item] = []

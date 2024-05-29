@@ -31,17 +31,20 @@ class PropertyViewModelSpec: QuickSpec {
                     
                     viewModel.fetchNewProperties()
                     
-                    expect(viewModel.state).toEventually(beAKindOf(APILoadingState.self))
+                    expect(viewModel.state).toEventually(beAKindOf(APIImageState.self))
                     expect(viewModel.properties).toEventuallyNot(beNil())
+                    expect(mockNetworkManager.fetchPropertiesInvokeCount).to(equal(1))
                 }
                 
                 it("should set error state on failure") {
                     
-                    mockNetworkManager.result = .failure(NetworkError.invalidResponse)
+                    mockNetworkManager.result = .failure(.invalidResponse)
                     
                     viewModel.fetchNewProperties()
                     
-                    expect(viewModel.state).to((beAKindOf(APILoadingState.self)))
+                    expect(viewModel.state).toEventually(beAKindOf(APIImageState.self))
+                    expect(viewModel.state).toEventuallyNot(beNil())
+                    expect(mockNetworkManager.fetchPropertiesInvokeCount).to(equal(1))
                 }
             }
         }

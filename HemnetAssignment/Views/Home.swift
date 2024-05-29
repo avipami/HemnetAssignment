@@ -43,11 +43,6 @@ struct Home: View {
                                 .frame(width: 400, height: 430)
                                 .offset(y: -70)
                         }
-                        .background(Color.black
-                            .opacity(0.03)
-                            .shadow(color: .black, radius: 1, x: 0, y: 4)
-                            .blur(radius: 15, opaque: false)
-                        )
                         
                         Spacer()
                             .frame(height: 30)
@@ -57,12 +52,10 @@ struct Home: View {
                                 if item.type == .highlightedProperty {
                                     
                                     HighlightedPropertyRow(item: item)
-                                        
                                     
                                 } else if item.type == .property {
                                     PropertyRow(item: item)
                                         
-                                    
                                 } else if item.type == .area {
                                     AreaRow(item: item)
                                         .padding(.bottom, 16)
