@@ -51,7 +51,7 @@ struct Home: View {
                                     
                                 } else if item.type == .property {
                                     PropertyRow(item: item)
-                                    
+
                                 } else if item.type == .area {
                                     AreaRow(item: item)
                                         .padding(.bottom, 16)
