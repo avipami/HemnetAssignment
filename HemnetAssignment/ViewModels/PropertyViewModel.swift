@@ -8,7 +8,7 @@
 import Foundation
 
 class PropertyViewModel: ObservableObject {
-    @Published var state: APILoadingState = .idle
+    @Published var state: APIImageState = .idle
     @Published var properties: [Item] = []
     @Published var highlightedProperties: [Item] = []
     @Published var areas: [Item] = []
@@ -33,7 +33,6 @@ class PropertyViewModel: ObservableObject {
                         switch property.type {
                         case .area:
                             self.areas.append(property)
-                            
                         case .highlightedProperty:
                             self.highlightedProperties.append(property)
                         case .property:

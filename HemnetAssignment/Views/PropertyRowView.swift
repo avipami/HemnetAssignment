@@ -27,21 +27,24 @@ struct PropertyRow: View {
                     .frame(width: 120, height: 120)
                     .cornerRadius(8)
                     Spacer()
-                        .frame(width: 30
+                        .frame(width: 40
                         )
                     VStack(alignment: .leading) {
                         Text(item.area)
-                            .font(.headline)
+                            .font(.custom("Epilogue-Bold", size: 16))
+                            .kerning(0.8)
                             .foregroundStyle(.black)
                             .lineLimit(1)
                         Spacer()
                             .frame(height: 25)
                         if let price = item.askingPrice {
                             Text("Pris: \(price) SEK")
+                                .font(.custom("Epilogue-Medium", size: 16))
                                 .lineLimit(1)
                         }
                         if let rooms = item.numberOfRooms {
                             Text("\(rooms) rum, \(item.livingArea ?? 0) kvm")
+                                .font(.custom("Epilogue-Medium", size: 16))
                                 .foregroundStyle(.black)
                                 .lineLimit(1)
                         }
@@ -51,7 +54,7 @@ struct PropertyRow: View {
             )
             .frame(width: 350, height: 150)
             .clipShape(RoundedRectangle(cornerRadius: 16))
-            
+        
         
         
     }

@@ -31,7 +31,7 @@ class HomeSnapshotSpec: QuickSpec {
             
             it("should have a valid snapshot for the Home view") {
                 
-                expect(sut).toEventually(recordSnapshot(named: "HomeView"), timeout: .seconds(1))
+                expect(sut).toEventually(haveValidSnapshot(named: "HomeView"), timeout: .seconds(1))
             }
         }
     }
