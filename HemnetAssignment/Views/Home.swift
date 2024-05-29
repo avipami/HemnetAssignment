@@ -50,7 +50,6 @@ struct Home: View {
                         ForEach(viewModel.properties) { item in
                             NavigationLink(destination: PropertyDetailView(item: item)) {
                                 if item.type == .highlightedProperty {
-                                    
                                     HighlightedPropertyRow(item: item)
                                     
                                 } else if item.type == .property {

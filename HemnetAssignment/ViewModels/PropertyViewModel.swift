@@ -33,7 +33,6 @@ class PropertyViewModel: ObservableObject {
                         switch property.type {
                         case .area:
                             self.areas.append(property)
-                            
                         case .highlightedProperty:
                             self.highlightedProperties.append(property)
                         case .property:
