@@ -81,3 +81,12 @@ class NetworkManager: NetworkManaging {
             )
     }
 }
+
+// Mock NetworkManager for testing
+class MockNetworkManager: NetworkManaging {
+    var result: Result<[Item], NetworkError> = .success([])
+    
+    func fetchProperties(completion: @escaping (Result<[Item], NetworkError>) -> Void) {
+        completion(result)
+    }
+}
