@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HemnetAssignment.xcodeproj">
+      location = "group:/Users/neopixel/Documents/GitHub/HemnetAssignment/HemnetAssignment.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
