@@ -69,6 +69,7 @@
 		C5F13D952C05C81F002AD500 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F13D962C05C81F002AD500 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F13D9C2C05C827002AD500 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F13D9F2C05DB04002AD500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C5F13DA02C05E0BE002AD500 /* PropertyViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewModelTest.swift; sourceTree = "<group>"; };
 		C5F13DA32C06326D002AD500 /* Epilogue-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-ExtraLight.ttf"; sourceTree = "<group>"; };
 		C5F13DA42C06326D002AD500 /* Epilogue-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Medium.ttf"; sourceTree = "<group>"; };
@@ -213,6 +214,7 @@
 		C5F13D8E2C05BD8C002AD500 /* HemnetAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				C5F13D9F2C05DB04002AD500 /* Info.plist */,
 				C5F13D932C05C36C002AD500 /* PropertyDetailViewSnapshotTests.swift */,
 				C5F13DA02C05E0BE002AD500 /* PropertyViewModelTest.swift */,
 				C5F0C1AD2C066B0700D83177 /* HomeViewTest.swift */,
