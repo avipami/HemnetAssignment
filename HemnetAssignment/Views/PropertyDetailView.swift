@@ -156,6 +156,11 @@ fileprivate struct BottomCardView: View {
                                         .foregroundStyle(.white)
                                 }
                                 .padding(.bottom, 36)
+                                .onTapGesture {
+                                    if let url = URL(string: "mailto:hej@hyggebo.se") {
+                                        UIApplication.shared.open(url)
+                                    }
+                                }
                         }
                     )
             }
