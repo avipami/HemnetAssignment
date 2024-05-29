@@ -8,9 +8,6 @@
 import Foundation
 import SwiftUI
 
-protocol viewModeling {
-    
-}
 
 struct Home: View {
     @EnvironmentObject var viewModel : PropertyViewModel
@@ -54,7 +51,7 @@ struct Home: View {
                                     
                                 } else if item.type == .property {
                                     PropertyRow(item: item)
-                                        
+
                                 } else if item.type == .area {
                                     AreaRow(item: item)
                                         .padding(.bottom, 16)
@@ -84,6 +81,5 @@ struct Home: View {
     Home()
         .environmentObject(PropertyViewModel())
 }
-
 
 

@@ -54,7 +54,7 @@ struct PropertyRow: View {
             )
             .frame(width: 350, height: 150)
             .clipShape(RoundedRectangle(cornerRadius: 16))
-            
+        
         
         
     }
