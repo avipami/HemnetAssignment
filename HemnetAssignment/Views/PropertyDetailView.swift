@@ -12,14 +12,17 @@ struct PropertyDetailView: View {
     let item: Item
     
     var body: some View {
+        
         ZStack(alignment: .top) {
+            
             Rectangle()
                 .frame(height: 550)
                 .foregroundStyle(.white)
                 .overlay {
-                    
                     AsyncImage(url: URL(string: item.image)) { phase in
+                        
                         switch phase {
+                            
                         case .empty:
                             ProgressView()
                             
@@ -32,6 +35,7 @@ struct PropertyDetailView: View {
                             Image(systemName: "photo")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
+                            
                         @unknown default:
                             Image(systemName: "photo")
                                 .resizable()
@@ -40,8 +44,6 @@ struct PropertyDetailView: View {
                     }
                     .ignoresSafeArea()
                 }
-                
-            
             BottomCardView(item: item)
         }
         .ignoresSafeArea()
@@ -62,6 +64,7 @@ fileprivate struct BottomCardView: View {
                         VStack(spacing: 0) {
                             VStack(alignment: .leading, spacing: 8) {
                                 if let municipality = item.municipality {
+                                    
                                     HStack {
                                         Text(municipality)
                                             .font(.custom("Epilogue-Bold", size: 16))
@@ -70,35 +73,48 @@ fileprivate struct BottomCardView: View {
                                 }
                                 
                                 if let address = item.streetAddress {
+                                    
                                     Text(address)
+                                        .lineLimit(1)
                                         .font(.custom("Epilogue-Bold", size: 26))
                                 }
                                 
                                 Text(item.area)
-                                    .font(.custom("Epilogue-Bold", size: 20))
+                                    .lineLimit(1)
+                                    .font(.custom("Epilogue-Medium", size: 20))
                                 
                                 Spacer()
                                     .frame(height: 20)
                                 
-                                if let rooms = item.numberOfRooms {
-                                    Text("\(rooms) rum")
-                                }
-                                
-                                if let askingPrice = item.askingPrice {
-                                    HStack {
-                                        Image(systemName: "dollarsign.square")
-                                        Text("\(askingPrice) sek")
+                                HStack(alignment: .center, content: {
+                                    Spacer()
+                                    if let rooms = item.numberOfRooms {
+                                        Text("\(rooms) rum")
+                                            .lineLimit(1)
                                     }
-                                }
+                                    Spacer()
+                                        .frame(width: 30)
+                                    if let askingPrice = item.askingPrice {
+                                        HStack {
+                                            Image(systemName: "dollarsign.square")
+                                            Text("\(askingPrice) sek")
+                                                .lineLimit(1)
+                                        }
+                                    }
+                                    Spacer()
+                                })
                                 
                                 HStack(spacing: 18) {
+                                    Spacer()
                                     if let rooms = item.numberOfRooms {
                                         HStack {
                                             Image(systemName: "bed.double")
                                             if rooms > 1 {
                                                 Text("\(rooms - 1)")
+                                                    .lineLimit(1)
                                             } else {
                                                 Text("\(rooms)")
+                                                    .lineLimit(1)
                                             }
                                         }
                                     }
@@ -107,6 +123,7 @@ fileprivate struct BottomCardView: View {
                                         HStack {
                                             Image(systemName: "calendar.circle")
                                             Text("\(monthly) sek")
+                                                .lineLimit(1)
                                         }
                                     }
                                     
@@ -114,24 +131,29 @@ fileprivate struct BottomCardView: View {
                                         HStack {
                                             Image(systemName: "square.resize")
                                             Text("\(livingArea) kvm")
+                                                .lineLimit(1)
                                         }
                                     }
+                                    Spacer()
                                 }
                                 
                                 Spacer()
                             }
-                            .frame(width: 350, alignment: .leading)
+                            .padding(.horizontal, 10)
+                            .frame(width: 380, alignment: .leading)
                             .padding(.top, 24)
                             
                             
                             Spacer()
                             
                             RoundedRectangle(cornerRadius: 20)
-                                .foregroundStyle(.white)
+                                .foregroundStyle(.blue)
                                 .frame(width: 250, height: 50)
                                 .overlay {
-                                    Text("Anmäl till visning")
-                                        .font(.custom("Epilogue-Medium", size: 16))
+                                    Text("Kontakt")
+                                        .font(.custom("Epilogue-Bold", size: 16))
+                                        .kerning(1)
+                                        .foregroundStyle(.white)
                                 }
                                 .padding(.bottom, 36)
                         }

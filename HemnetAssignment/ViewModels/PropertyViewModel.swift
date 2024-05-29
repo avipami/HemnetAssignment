@@ -8,21 +8,21 @@
 import Foundation
 
 class PropertyViewModel: ObservableObject {
-    @Published var state: APILoadingState = .loading
+    @Published var state: APILoadingState = .idle
     @Published var properties: [Item] = []
     @Published var highlightedProperties: [Item] = []
     @Published var areas: [Item] = []
+    @Published var refreshData: Bool = true
     
     var networkManager: NetworkManaging
     
     
     init(_ networkManager : NetworkManager = NetworkManager.shared) {
-        
         self.networkManager = networkManager
-        fetchNewProperties()
     }
     
     func fetchNewProperties() {
+        guard refreshData == true else { return }
         print("Fetching Properties")
         networkManager.fetchProperties() { [weak self] result in
             guard let self = self else { return }
@@ -47,5 +47,6 @@ class PropertyViewModel: ObservableObject {
                 }
             }
         }
+        refreshData = false
     }
 }

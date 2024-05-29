@@ -187,13 +187,13 @@
 		C5F13D742C028D7D002AD500 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */,
-				C5F13D712C013CC3002AD500 /* Home.swift */,
 				C5F0C1B62C06809000D83177 /* AreaRowView.swift */,
 				C5F13D772C03C84C002AD500 /* AreaView.swift */,
-				C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */,
 				C5F0C1B22C06802700D83177 /* HighlightedPropertyRowView.swift */,
+				C5F13D712C013CC3002AD500 /* Home.swift */,
+				C5F13D8C2C053079002AD500 /* PropertyDetailView.swift */,
 				C5F0C1B42C06806D00D83177 /* PropertyRowView.swift */,
+				C5F13D752C028D8B002AD500 /* WelcomeScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

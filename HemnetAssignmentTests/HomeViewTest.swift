@@ -25,7 +25,7 @@ class HomeSnapshotSpec: QuickSpec {
                 viewModel.networkManager = mockNetworkManager
                 mockNetworkManager.result = .success(Item.mockData)
                 
-                sut = Home(viewModel: viewModel).testView()
+                sut = Home().environmentObject(viewModel).testView()
                 viewModel.fetchNewProperties()
             }
             
